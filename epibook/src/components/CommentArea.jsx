@@ -17,7 +17,7 @@ const CommentArea = ({ asin }) => {
           'https://striveschool-api.herokuapp.com/api/comments/' + asin,
           {
             headers: {
-              Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWFmZmNkNjFkNTA1ODAwMTgzMDRiYWUiLCJpYXQiOjE3MDk3NTEwODcsImV4cCI6MTcxMDk2MDY4N30.fWdq90vkaxwM9fBfU-uoykil2bQxNPZOai2JRBTBx2M',
+              Authorization: 'TOKEN',
             },
           }
         )
